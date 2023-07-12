@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-12T20:30:44.608Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79" etag="7p1tqk8jFSD_YHY0tOvi" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-12T20:44:38.355Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79" etag="QoE0yyl9Sm0Qq8BVEp4w" version="21.3.6" type="github">
   <diagram name="Página-1" id="7uCXfXIc8fd2pdZziexb">
-    <mxGraphModel dx="4709" dy="2789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3400" dy="2095" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,8 +87,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-375" y="-120" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-138" y="-120" />
-              <mxPoint x="-375" y="-120" />
+              <mxPoint x="-180" y="-120" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -281,7 +280,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wzusWgHNVMKydE2oBifo-17" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;a: Procesador AMD EPYC.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;g: Procesador AWS Graviton (ARM)&lt;/li&gt;&lt;li&gt;i: Procesador Intel Xenon Scalable Ice Lake&lt;/li&gt;&lt;li&gt;n: Mayor ancho de banda en EBS&lt;/li&gt;&lt;li&gt;z: Alto rendimiento&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-690" y="-190" width="315" height="210" as="geometry" />
+          <mxGeometry x="-690" y="-130" width="315" height="150" as="geometry" />
         </mxCell>
         <mxCell id="E2Kj-onIHeJ60yQdCFoT-216" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wzusWgHNVMKydE2oBifo-18" target="E2Kj-onIHeJ60yQdCFoT-183">
           <mxGeometry relative="1" as="geometry" />
@@ -613,6 +612,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="E2Kj-onIHeJ60yQdCFoT-249" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E2Kj-onIHeJ60yQdCFoT-163" target="E2Kj-onIHeJ60yQdCFoT-250">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-82" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="E2Kj-onIHeJ60yQdCFoT-163" value="&lt;font style=&quot;font-size: 29px;&quot;&gt;EC2 Container Service&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-50" y="139.75" width="230" height="115" as="geometry" />
         </mxCell>
@@ -740,6 +747,12 @@
         </mxCell>
         <mxCell id="E2Kj-onIHeJ60yQdCFoT-245" value="Conteiner Registry" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="-13.5" y="60.25" width="170" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="E2Kj-onIHeJ60yQdCFoT-250" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;FAR GATE&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;te permite correr el docker como Lambda&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="-80" width="150" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="E2Kj-onIHeJ60yQdCFoT-251" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 26px;&quot;&gt;Serverless:&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;Se ejecuta en un servidor compartido, por lo que solo te cobran su uso especifico, no completo, en vez de tener un servidor, tenes un deploy basico que se cobra por uso especifico" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="-370" width="280" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
