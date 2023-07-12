@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" modified="2023-07-12T17:58:49.035Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79" etag="OsfyHUskp4V4LeT1kZ7c" version="21.3.6" type="github">
+  <diagram name="Página-1" id="7uCXfXIc8fd2pdZziexb">
+    <mxGraphModel dx="2864" dy="2249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kZv1v513atMaFXBSJFO3-1" value="Amazon Web Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wzusWgHNVMKydE2oBifo-2" value="EC2&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wzusWgHNVMKydE2oBifo-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="wzusWgHNVMKydE2oBifo-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-260" y="325" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-270" y="325" />
+              <mxPoint x="-270" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzusWgHNVMKydE2oBifo-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wzusWgHNVMKydE2oBifo-4" target="wzusWgHNVMKydE2oBifo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wzusWgHNVMKydE2oBifo-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wzusWgHNVMKydE2oBifo-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-270" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzusWgHNVMKydE2oBifo-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wzusWgHNVMKydE2oBifo-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-290" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-270" y="325" />
+              <mxPoint x="-270" y="460" />
+              <mxPoint x="-290" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzusWgHNVMKydE2oBifo-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.001;entryY=0.48;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wzusWgHNVMKydE2oBifo-4" target="wzusWgHNVMKydE2oBifo-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-270" y="325" />
+              <mxPoint x="-270" y="584" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzusWgHNVMKydE2oBifo-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wzusWgHNVMKydE2oBifo-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-290" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-270" y="325" />
+              <mxPoint x="-270" y="720" />
+              <mxPoint x="-290" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzusWgHNVMKydE2oBifo-4" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;Instace Types&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="250" width="225" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="wzusWgHNVMKydE2oBifo-5" value="Uso General" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="50" width="510" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wzusWgHNVMKydE2oBifo-8" value="&lt;div style=&quot;font-size: 5px;&quot;&gt;Las instancias de uso general brindan una combinación equilibrada de recursos informáticos&lt;span style=&quot;background-color: initial;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 5px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;de memoria y de red. Además, pueden usarse para distintas cargas de trabajo.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 5px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Estas instancias son ideales para las aplicaciones que us&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;an estos&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 5px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;recursos en partes iguales, como los servidores web y los repositorios de código&lt;/span&gt;&lt;span style=&quot;font-size: 11px; background-color: initial;&quot;&gt;.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wzusWgHNVMKydE2oBifo-5">
+          <mxGeometry x="-5" y="28" width="520" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wzusWgHNVMKydE2oBifo-10" value="Optimizado para informatica" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="180" width="510" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="wzusWgHNVMKydE2oBifo-11" value="&lt;div&gt;Las instancias optimizadas para la computación son ideales para las aplicaciones que&lt;/div&gt;&lt;div&gt;&amp;nbsp;dependen de los recursos de computación&amp;nbsp;&lt;/div&gt;&lt;div&gt;y se benefician de los procesadores de alto rendimiento.&lt;/div&gt;&lt;div&gt;&amp;nbsp;Las instancias que forman parte de esta categoría funcionan bien&lt;/div&gt;&lt;div&gt;con las cargas de trabajo de procesamiento por lotes,&amp;nbsp;&lt;/div&gt;&lt;div&gt;la transcodificación de archivos multimedia,&amp;nbsp;&lt;/div&gt;&lt;div&gt;los servidores web de alto rendimiento, la computación de alto rendimiento (HPC),&amp;nbsp;&lt;/div&gt;&lt;div&gt;la creación de modelos científicos, los servidores de videojuegos y los motores de&amp;nbsp;&lt;/div&gt;&lt;div&gt;servidor de publicidad dedicados, la inferencia del machine learning,&lt;/div&gt;&lt;div&gt;&amp;nbsp;entre otras aplicaciones con uso intensivo de computación.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wzusWgHNVMKydE2oBifo-10">
+          <mxGeometry x="20" y="35" width="480" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="wzusWgHNVMKydE2oBifo-13" value="Optimizado para memoria" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="400" width="510" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wzusWgHNVMKydE2oBifo-14" value="Las instancias optimizadas para la memoria se diseñaron&lt;br&gt;con el objetivo de brindar un rendimiento rápido&lt;br&gt;para las cargas de trabajo que procesan grandes conjuntos de datos en la memoria." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wzusWgHNVMKydE2oBifo-13">
+          <mxGeometry x="20" y="30" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wzusWgHNVMKydE2oBifo-17" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="-190" width="315" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="wzusWgHNVMKydE2oBifo-18" value="Informatica Acelerada" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="520" width="510" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wzusWgHNVMKydE2oBifo-19" value="En las instancias de informática acelerada, se utilizan aceleradores de hardware,&lt;br&gt;o coprocesadores, para realizar funciones, como el cálculo de números de coma flotante,&lt;br&gt;el procesamiento de gráficos o la búsqueda de coincidencias de patrones de datos,&lt;br&gt;con una eficiencia mayor de la ofrecida en un software que se ejecuta en CPU." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wzusWgHNVMKydE2oBifo-18">
+          <mxGeometry x="8" y="30" width="500" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wzusWgHNVMKydE2oBifo-25" value="Optimizado para almacenamiento" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="650" width="510" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wzusWgHNVMKydE2oBifo-26" value="Las instancias optimizadas para almacenamiento se diseñaron para las cargas de trabajo&lt;br&gt;que necesitan acceso de escritura y lectura secuencial&lt;br&gt;alto a conjuntos de datos muy grandes en el almacenamiento local. Se optimizan para&lt;br&gt;brindar decenas de miles de operaciones&lt;br&gt;de E/S aleatorias de baja latencia por segundo (IOPS) a las aplicaciones." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-795" y="677" width="500" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
