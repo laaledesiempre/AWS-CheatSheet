@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-17T14:53:40.183Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" etag="TafaDpXrcyFfBHPBBh5p" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-17T15:34:45.259Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" etag="4uojG9Dt4v9elpkOvHgW" version="21.6.2" type="github">
   <diagram name="Página-1" id="7uCXfXIc8fd2pdZziexb">
     <mxGraphModel dx="4709" dy="2789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -751,11 +751,21 @@
         <mxCell id="E2Kj-onIHeJ60yQdCFoT-250" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;FAR GATE&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;te permite correr el docker como Lambda&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-120" y="-80" width="150" height="98" as="geometry" />
         </mxCell>
-        <mxCell id="E2Kj-onIHeJ60yQdCFoT-251" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 26px;&quot;&gt;Serverless:&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;Se ejecuta en un servidor compartido, por lo que solo te cobran su uso especifico, no completo, en vez de tener un servidor, tenes un deploy basico que se cobra por uso especifico" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
-          <mxGeometry x="-25" y="-870" width="280" height="180" as="geometry" />
+        <mxCell id="E2Kj-onIHeJ60yQdCFoT-251" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 26px;&quot;&gt;Serverless:&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;Se ejecuta en un servidor remoto, Por lo que no hay un servidor personal fisico ni se requiere toda la infraestructura de manera instantanea, a su vez no esta limitado ya que los proovedores pueden ayudar a expandir la infraestructura de manera modular" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
+          <mxGeometry x="-850.5" y="-755" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="o0KLjHvFvTkrvx_EbIcM-1" target="o0KLjHvFvTkrvx_EbIcM-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="334" y="-1085" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.88;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o0KLjHvFvTkrvx_EbIcM-1" target="o0KLjHvFvTkrvx_EbIcM-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o0KLjHvFvTkrvx_EbIcM-1" value="&lt;font style=&quot;font-size: 50px;&quot;&gt;Cloud Computing&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="198" y="-1150" width="572" height="360" as="geometry" />
+          <mxGeometry x="198" y="-1150" width="542" height="340" as="geometry" />
         </mxCell>
         <mxCell id="o0KLjHvFvTkrvx_EbIcM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.071;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="o0KLjHvFvTkrvx_EbIcM-2" target="o0KLjHvFvTkrvx_EbIcM-3">
           <mxGeometry relative="1" as="geometry" />
@@ -804,6 +814,113 @@
             <mxPoint x="1090" y="-1040" as="sourcePoint" />
             <mxPoint x="1090.53" y="-1030" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o0KLjHvFvTkrvx_EbIcM-22" target="o0KLjHvFvTkrvx_EbIcM-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o0KLjHvFvTkrvx_EbIcM-22" target="o0KLjHvFvTkrvx_EbIcM-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="96" y="-1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o0KLjHvFvTkrvx_EbIcM-22" target="o0KLjHvFvTkrvx_EbIcM-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-327" y="-1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-22" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Modelos de servicio&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-232" y="-1100" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o0KLjHvFvTkrvx_EbIcM-24" target="o0KLjHvFvTkrvx_EbIcM-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-24" value="Infraestructura como servicio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-432" y="-1020" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o0KLjHvFvTkrvx_EbIcM-25" target="o0KLjHvFvTkrvx_EbIcM-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-25" value="Plataforma como servicio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-197" y="-1020" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o0KLjHvFvTkrvx_EbIcM-26" target="o0KLjHvFvTkrvx_EbIcM-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-26" value="Software como servicio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4" y="-1020" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o0KLjHvFvTkrvx_EbIcM-27" target="o0KLjHvFvTkrvx_EbIcM-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-27" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;IaaS&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;i&gt;(Infraestructure as a service)&lt;br&gt;&lt;/i&gt;Te da acceso a toda la infraestructura, podes accederla y modificarla a tu gusto para los propositos requeridos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-432" y="-950" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o0KLjHvFvTkrvx_EbIcM-28" target="o0KLjHvFvTkrvx_EbIcM-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-28" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;PaaS&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;i&gt;(Plataform as a Service)&lt;br&gt;&lt;/i&gt;Accedes a una plataforma de despliegue aunque no puedes modificarla, solo despleagar tu aplicacion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-197" y="-950" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o0KLjHvFvTkrvx_EbIcM-29" target="o0KLjHvFvTkrvx_EbIcM-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-29" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;SaaS&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;i&gt;(Software as a Service)&lt;br&gt;&lt;/i&gt;Accedes a un software con el que tus datos interactuan pero no tienes acceso a su funcionamiento, solo a su I/O" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2" y="-950" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="o0KLjHvFvTkrvx_EbIcM-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="96.17241379310371" y="-649.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-30" value="Ejempos:&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Google&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Twitter&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Facebook&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Youtube&lt;/li&gt;&lt;/ul&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="-810" width="142" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o0KLjHvFvTkrvx_EbIcM-31" target="o0KLjHvFvTkrvx_EbIcM-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-31" value="Ejempos:&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Google Apps&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Steam&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Github Pages&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Itchio&lt;/li&gt;&lt;/ul&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-183" y="-810" width="142" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.538;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o0KLjHvFvTkrvx_EbIcM-32" target="o0KLjHvFvTkrvx_EbIcM-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-32" value="Ejempos:&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;AWS&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Azure&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Google Cloud&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Digital Ocean&lt;/li&gt;&lt;/ul&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="-810" width="148" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o0KLjHvFvTkrvx_EbIcM-33" target="o0KLjHvFvTkrvx_EbIcM-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-327" y="-540" />
+              <mxPoint x="-327" y="-540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-33" value="Acceso a:&lt;br&gt;Datos&lt;br&gt;Aplicacion&lt;br&gt;Ejecucion&lt;br&gt;Control y gestion de datos (Middleware)&lt;br&gt;Sistema Operativo" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-392" y="-680" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o0KLjHvFvTkrvx_EbIcM-34" target="o0KLjHvFvTkrvx_EbIcM-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-112" y="-530" />
+              <mxPoint x="-112" y="-530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-34" value="Acceso a:&lt;br&gt;Datos&lt;br&gt;Aplicacion&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-154.5" y="-660" width="85" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.849;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o0KLjHvFvTkrvx_EbIcM-35" target="o0KLjHvFvTkrvx_EbIcM-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-35" value="Acceso a:&lt;br&gt;Datos&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="66" y="-647.5" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o0KLjHvFvTkrvx_EbIcM-50" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;En todos la Virtualizacion, Servidores, Almacenamiento y coneccion los gestiona el proovedor de servicios&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-432" y="-520" width="622" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
